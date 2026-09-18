@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_asserts/mycssstyle.css">
+    <title>1Nest Poultry Farm | Enquiries</title>
+    
+</head>
+<body>
+ 
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="_images/Logo.png" alt="1Nest Poultry Logo">
+                <span>1Nest Poultry</span>
+            </a>
+ 
+            <nav>
+                <ul class="horizontal-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiries.html" class="active">Enquiries</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <div class="page-header">
+        <div class="container">
+            <h1>Make an Enquiry</h1>
+            <p>Send us your questions, order requests, or feedback</p>
+        </div>
+    </div>
+ 
+    <main class="container">
+        <div class="enquiries-stack">
+ 
+            <!-- Native Enquiry Form -->
+            <div class="card-box">
+                <h2>Online Enquiry Form</h2>
+                <p class="card-subtext">Fields marked <span class="required-mark">*</span> are required. We usually reply within 1-2 business days.</p>
+ 
+                <form class="enquiry-form" id="enquiryForm">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="fullName">Full Name <span class="required-mark">*</span></label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Your name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Phone Number <span class="required-mark">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="072 345 6789" required>
+                        </div>
+                    </div>
+ 
+                    <div class="form-field">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                        <span class="form-hint">Optional, but useful if you'd prefer a written reply.</span>
+                    </div>
+ 
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="enquiryType">Enquiry Type <span class="required-mark">*</span></label>
+                            <select id="enquiryType" name="enquiryType" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="Order - Live Birds">Order - Live Birds</option>
+                                <option value="Order - Eggs">Order - Eggs</option>
+                                <option value="Bulk / Wholesale Order">Bulk / Wholesale Order</option>
+                                <option value="Delivery Question">Delivery Question</option>
+                                <option value="General Question">General Question</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="quantity">Quantity Needed</label>
+                            <input type="text" id="quantity" name="quantity" placeholder="e.g. 20 birds, 10 trays">
+                        </div>
+                    </div>
+ 
+                    <div class="form-field">
+                        <label for="message">Your Message <span class="required-mark">*</span></label>
+                        <textarea id="message" name="message" placeholder="Tell us what you need, and when..." required></textarea>
+                    </div>
+ 
+                    <button type="submit" class="submit-btn">Send Enquiry</button>
+                    <div class="form-status" id="formStatus">Thank you — your enquiry has been sent. We'll be in touch shortly.</div>
+                </form>
+            </div>
+ 
+            <!-- Google Map Section -->
+            <div class="card-box">
+                <h2>Our Location</h2>
+                <div class="iframe-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116348.83548983273!2d29.20815758066559!3d-24.238634177579178!2m3!1f0!0!0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6f642be4eb5eb%3A0x6b10fa7406cf6b1c!2sZebediela!5e0!3m2!1sen!2sza!4v1710000000000!5m2!1sen!2sza"
+                        height="380"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Zebediela Limpopo Map">
+                    </iframe>
+                </div>
+ 
+                <div class="location-info">
+                    <h4>1Nest Poultry Farm</h4>
+                    <p><strong>Region:</strong> Zebediela, Limpopo, South Africa</p>
+                    <p><strong>Operating Hours:</strong> Mon - Sat: 08:00 - 17:00</p>
+                    <p>Visit us or submit an enquiry form above to arrange orders and delivery options.</p>
+                </div>
+            </div>
+ 
+        </div>
+    </main>
+ 
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>1Nest Poultry</h4>
+                    <p style="font-size: 0.85rem; color: #d8f3dc;">Putting Zebediela on the map through sustainable poultry farming.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="enquiries.html">Enquiries</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 1Nest Poultry Farm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+ 
+    <script>
+        const enquiryForm = document.getElementById('enquiryForm');
+        const formStatus = document.getElementById('formStatus');
+ 
+        enquiryForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+           
+            formStatus.classList.add('success');
+            enquiryForm.reset();
+        });
+    </script>
+ 
+</body>
+</html>
