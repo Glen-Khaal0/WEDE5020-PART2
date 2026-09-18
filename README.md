@@ -5,7 +5,7 @@ Website(HTML)
 
  About the Project
 
-The 1NEST POULTRY FARM** website is a digital platform developed for 1Nest Poultry Farm, founded by **Ms. Selina Khaalo** in the rural village of **Zebediela, Limpopo**.
+The 1NEST POULTRY FARM website is a digital platform developed for 1Nest Poultry Farm, founded by **Ms. Selina Khaalo** in the rural village of **Zebediela, Limpopo**.
 
 The farm was established to address the lack of poultry farming opportunities in the community, create employment, and put Zebediela on the map. Inspired by the belief that the egg comes first, 1Nest Poultry Farm aims to grow into a poultry powerhouse where nothing goes to waste.
 
